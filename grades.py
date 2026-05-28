@@ -30,6 +30,7 @@ def calculate_average(scores):
     return sum(scores.values()) / len(scores)
 
 
+def print_result(scores, average):
 if __name__ == "__main__":
     scores = get_scores()
     print("\n입력된 점수:", scores)
